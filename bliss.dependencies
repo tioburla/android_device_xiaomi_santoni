@@ -1,0 +1,8 @@
+[
+ {
+	"target_path": "kernel/xiaomi/msm8937"
+ },
+ {
+    "target_path": "vendor/xiaomi/santoni"
+ }
+]
