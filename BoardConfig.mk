@@ -104,6 +104,9 @@ WITH_LINEAGE_CHARGER := false
 # CNE / DPM
 BOARD_USES_QCNE := true
 
+# DATA IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
@@ -165,6 +168,8 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 TARGET_INIT_VENDOR_LIB := libinit_santoni
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 TARGET_RECOVERY_DEVICE_MODULES := libinit_santoni
+
+
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
